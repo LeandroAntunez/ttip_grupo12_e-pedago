@@ -1,19 +1,18 @@
 import React from 'react';
-import logo from './cover.png';
-import './App.css';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Main from './views/Main'
+import Games from './views/Games'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <BrowserRouter>
+            <Switch>
+              <Route exact path= '/' render={props => <Main />}/>
+              <Route exact path= '/games' render={props => <Games />}/>
 
-        <a>
-          Divertite aprendiendo..
-        </a>
-      </header>
-    </div>
-  );
+            </Switch>
+       </BrowserRouter>
+  )
 }
 
 export default App;
