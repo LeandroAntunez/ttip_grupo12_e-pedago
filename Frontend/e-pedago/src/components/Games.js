@@ -1,5 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router';
+import OrderGame from './OrderGame';
 
 
 
@@ -9,11 +10,8 @@ const Games = () =>{
 
         <div>
            en desarrollo..
-       </div>
-            
-
-            
-
+           <OrderGame />
+        </div>
     )
 }
 

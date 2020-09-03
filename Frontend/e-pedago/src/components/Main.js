@@ -1,6 +1,5 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
 import logo from '../cover.png';
 import '../App.css';
 
@@ -16,14 +15,14 @@ const Main = () => {
   
           <div>
             Divertite aprendiendo..
+            <br></br>
+            <button className="button-big blue" onClick={() => {history.push(`/games`)}}>
+              Juegos
+            </button>
+
           </div>
           
-
-          
         </header>
-        <div>
-        <Button onClick={() => {history.push(`/games`)}}></Button>
-        </div>
 
         
       </div>

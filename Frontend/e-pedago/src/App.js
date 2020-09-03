@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import Main from './views/Main'
-import Games from './views/Games'
+import Main from './components/Main'
+import Games from './components/Games'
 
 function App() {
   return (
