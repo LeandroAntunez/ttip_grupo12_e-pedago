@@ -7,9 +7,9 @@ const Games = () =>{
 
     return (
 
-        <a>
+        <div>
            en desarrollo..
-       </a>
+       </div>
             
 
             

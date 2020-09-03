@@ -14,9 +14,9 @@ const Main = () => {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
   
-          <a>
+          <div>
             Divertite aprendiendo..
-          </a>
+          </div>
           
 
           
