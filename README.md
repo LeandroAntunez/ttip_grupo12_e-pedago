@@ -1,6 +1,6 @@
 Repositorio de documentación
 
-E-Pedago
+# E-Pedago
 
 
 Plataforma para profesionales psicopedagoges para evaluar a pacientes con dificulatades de apredizaje a travez de juegos.
