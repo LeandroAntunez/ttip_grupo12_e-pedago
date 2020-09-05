@@ -48,10 +48,20 @@ export default class OrderGame extends React.Component {
           {this.state.columnOrder.map((columnId) => {
           const column = this.state.columns[columnId];
           const boxes = column.boxIds.map(boxId => this.state.boxes[boxId])
-          
+          this.randomize(boxes);
           return <Column key= {column.id} column={column} boxes={boxes} />;
           })}
           </DragDropContext>
       );
     }
+    
+    randomize(array) {
+      for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    }
+
   }
