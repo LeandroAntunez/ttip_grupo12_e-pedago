@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import logo from '../cover.png';
-import '../App.css';
+import '../style/App.css';
 
 
 const Main = () => {
