@@ -16,7 +16,7 @@ const Main = () => {
           <div>
             Divertite aprendiendo..
             <br></br>
-            <button className="button-big blue" onClick={() => {history.push(`/games`)}}>
+            <button onClick={() => {history.push(`/games`)}}>
               Juegos
             </button>
 
