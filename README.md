@@ -1,5 +1,5 @@
 Repositorio de documentación
-
+![UML](Frontend/e-pedago/src/cover.png)
 # E-Pedago
 
 
